@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MBARARA_WASTE_SOLUTION</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="settings">SETTINGS</string>
+    <string name="send_report">send report</string>
+    <string name="report_a_problem">report</string>
+
+</resources>
