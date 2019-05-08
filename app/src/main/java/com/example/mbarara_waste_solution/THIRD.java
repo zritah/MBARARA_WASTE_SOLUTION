@@ -28,21 +28,26 @@ public class THIRD extends AppCompatActivity {
         int x=item.getItemId();
         switch (x){
 
-            case R.id.settings:
-                Intent myintent =new Intent(THIRD.this,SETTINGS.class);
+
+            case R.id.report:
+                Intent myintent =new Intent(THIRD.this,REPORT.class);
                 startActivity(myintent);
                 break;
-            case R.id.report:
-                Intent myintent1 =new Intent(THIRD.this,REPORT.class);
+            case R.id.about:
+                Intent myintent1 =new Intent(THIRD.this,ABOUT.class);
                 startActivity(myintent1);
                 break;
-            case R.id.about:
-                Intent myintent2 =new Intent(THIRD.this,ABOUT.class);
+            case R.id.ItemsUsed:
+                Intent myintent2 =new Intent(THIRD.this,ItemsToUse.class);
                 startActivity(myintent2);
                 break;
-            case R.id.logout:
-                Intent myintent3 =new Intent(THIRD.this,HomeActivity.class);
+            case R.id.set:
+                Intent myintent3 =new Intent(THIRD.this,Settings.class);
                 startActivity(myintent3);
+                break;
+            case R.id.logout:
+                Intent myintent4 =new Intent(THIRD.this,HomeActivity.class);
+                startActivity(myintent4);
                 break;
             default:
                 return false;

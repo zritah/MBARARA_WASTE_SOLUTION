@@ -27,14 +27,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(myintent1);
             }
         });
-        mybutton=findViewById(R.id.button2);
-        mybutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myintent =new Intent(HomeActivity.this,SIGNUP.class);
-                startActivity(myintent);
-            }
-        });
+
 
     }
 
@@ -56,4 +49,9 @@ public class HomeActivity extends AppCompatActivity {
         Log.i(my_tag,"onStop");
     }
 
+
+    public void CreateAccount_onclick(View view) {
+        Intent intent = new Intent(HomeActivity.this,SIGNUP.class);
+        startActivity(intent);
+    }
 }

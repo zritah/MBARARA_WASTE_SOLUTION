@@ -13,7 +13,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="MBARARA WASTE SOLUTIONS is an application that provides collection information . "
+        android:text="MBARARA WASTE SOLUTIONS is an application that provides collection information. "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

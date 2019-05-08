@@ -9,8 +9,17 @@
         android:roundIcon="@drawable/images"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Settings"></activity>
+        <activity android:name=".ItemsToUse" />
+        <activity
+            android:name=".Preferences"
+            android:label="@string/title_activity_preferences"
+            android:parentActivityName=".ABOUT">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mbarara_waste_solution.ABOUT" />
+        </activity>
         <activity android:name=".REPORT" />
-        <activity android:name=".SETTINGS" />
         <activity android:name=".SIGNUP" />
         <activity android:name=".THIRD" />
         <activity android:name=".SIGNIN" />

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/settings"
-        android:title="@string/settings"
-        app:showAsAction="never" />
+
     <item
         android:id="@+id/report"
         android:title="@string/report_a_problem" />
@@ -12,9 +9,14 @@
         android:id="@+id/about"
         android:title="@string/about_us" />
     <item
+        android:id="@+id/ItemsUsed"
+        android:title="Items_To_Use"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/set"
+        android:title="Settings"/>
+    <item
         android:id="@+id/logout"
         android:title="@string/log_out" />
-    <item
-        android:id="@+id/setings"
-        android:title="Setings"/>
+
 </menu>
