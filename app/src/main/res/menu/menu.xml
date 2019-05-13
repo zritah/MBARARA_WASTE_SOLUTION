@@ -18,5 +18,8 @@
     <item
         android:id="@+id/logout"
         android:title="@string/log_out" />
+    <item
+        android:id="@+id/dip"
+        android:title="DISPOSE" />
 
 </menu>

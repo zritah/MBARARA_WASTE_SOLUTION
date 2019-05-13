@@ -49,6 +49,10 @@ public class THIRD extends AppCompatActivity {
                 Intent myintent4 =new Intent(THIRD.this,HomeActivity.class);
                 startActivity(myintent4);
                 break;
+            case R.id.dip:
+                Intent myintent5 =new Intent(THIRD.this,Dispose.class);
+                startActivity(myintent5);
+                break;
             default:
                 return false;
 
